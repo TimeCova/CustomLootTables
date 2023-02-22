@@ -1,0 +1,10 @@
+name: CustomLootTables
+version: '${project.version}'
+main: sainte.customloottables.CustomLootTables
+api-version: 1.19
+prefix: CLT
+authors: [ Sainte ]
+description: This plugin changes the loot tables in your minecraft server.
+commands:
+  clt:
+    description: Main CustomLootTables Command

@@ -1,0 +1,43 @@
+# Valid Block Types: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# MaxAmount = Max amount of the item it should drop.
+# MinAmount = Minimum amount of the item it should drop.
+# Chance = The chance that it drops the item whenever the entity dies.
+# keepOriginalItems = Keep the original drops of the mob or to completely overwrite them.
+
+ZOMBIE:
+  keepOriginalItems: true
+  GOLD_INGOT:
+    MaxAmount: 3
+    MinAmount: 0
+    chance: 50
+  IRON_INGOT:
+    MaxAmount: 5
+    MinAmount: 1
+    chance: 30
+  DIAMOND:
+    MaxAmount: 1
+    MinAmount: 0
+    chance: 10
+
+SKELETON:
+  keepOriginalItems: true
+  GOLD_INGOT:
+    MaxAmount: 3
+    MinAmount: 0
+    chance: 50
+  DIAMOND:
+    MaxAmount: 5
+    MinAmount: 2
+    chance: 75
+    displayName: "Custom Item"
+    lore:
+      - "This is line 1 of lore"
+      - "This is line 2 of lore"
+  COBBLESTONE:
+    MaxAmount: 5
+    MinAmount: 2
+    chance: 75
+    displayName: "Custom Item"
+    lore:
+      - "This is line 1 of lore"
+      - "This is line 2 of lore"
